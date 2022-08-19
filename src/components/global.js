@@ -1,5 +1,6 @@
 
 function GlobalStats(props){
+    console.log(props);
     return(
         <div>
             <h1>Covid-19 Tracker</h1>
@@ -10,13 +11,15 @@ function GlobalStats(props){
                  <small>Total death</small>
                 </div>
 
+
+
                 <div>
-                    <h2>{props.global.NewConfirmed - props.global.TotalDeaths }</h2>
+                    <h2>{props.global.TotalConfirmed - props.global.TotalDeaths }</h2>
                  <small>New cases</small>
                 </div>
 
                 <div>
-                    <h2>{props.global.TotalDeaths}</h2>
+                    <h2>{props.global.TotalRecovery}</h2>
                  <small>Total recovery</small>
                 </div>
             </div>
