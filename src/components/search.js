@@ -2,10 +2,14 @@
 function Search(props){
     
     const textField = {
-        width: '1400px' ,
+        width: '80%' ,
         height: '30px' ,
         marginTop: '3' ,
-        marginLeft: '10%' 
+        marginLeft: '10%',
+        
+        
+        //border-spacing: 10px
+    
 
     }
 

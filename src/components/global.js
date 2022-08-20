@@ -7,20 +7,23 @@ function GlobalStats(props){
 
             <div className="globalstats">
                 <div>
+                <small>Total death</small>
                     <h2>{props.global.TotalDeaths}</h2>
-                 <small>Total death</small>
+                 
                 </div>
 
 
 
                 <div>
+                <small>New cases</small>
                     <h2>{props.global.TotalConfirmed - props.global.TotalDeaths }</h2>
-                 <small>New cases</small>
+                 
                 </div>
 
                 <div>
-                    <h2>{props.global.TotalRecovery}</h2>
-                 <small>Total recovery</small>
+                    <small>Total recovery</small>
+                    <h2>{props.global.TotalRecovered}</h2>
+                 
                 </div>
             </div>
         </div>

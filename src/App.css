@@ -3,19 +3,26 @@
   justify-content: space-around;
   background-color: #6082a1;
   color: white;
-  height: 200px;
-  padding-top: 10%;
+  height: 100px;
+  padding-top: 3%;
+  
 }
 
 table{
   border-collapse: collapse;
   width: 80;
-  margin-left: 10%;
+  /* margin-left: 10%; */
   margin-top: 4%;
+  text-align: center;
+  margin: auto;
 }
 
 th, td {
   padding: 8px;
-  text-align: left;
+  text-align: center;
   border-bottom: 1px solid #ddd;
+}
+
+h1{
+  text-align: center;
 }

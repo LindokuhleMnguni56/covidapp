@@ -9,7 +9,7 @@ import Search from './components/search';
 function App() {
   
   const [globalStats, setglobalStats] = useState('')
-  const [countriesStats, setCountriesStats] = useState('')
+  const [countriesStats, setCountriesStats] = useState([])
 
   useEffect(()=> {
     console.log('hhh');
@@ -43,8 +43,8 @@ function App() {
     <div className="App">
      
       <GlobalStats global={globalStats}/>
-      {/* <Search search={searchCountry} />
-      <CountriesStats countries={countriesStats}/> */}
+      <Search search={searchCountry} />
+      { <CountriesStats countries={countriesStats}/> }
        
     </div>
   );
